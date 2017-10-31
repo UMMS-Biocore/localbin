@@ -1,0 +1,2 @@
+cd /Users/kucukura/workdir/docker/dolphin-docker
+docker build -t dolphin-docker .

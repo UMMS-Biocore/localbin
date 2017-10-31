@@ -1,0 +1,5 @@
+#docker run -d -p 800:80 -v /mnt/sda1/export:/export nephantes/galaxy-stable:version3 startup
+#docker run -ti -p 800:80 -v /mnt/sda1/export:/export nephantes/galaxy-stable:version3
+#docker run -m 10G -p 8080:80 -p 3838:3838 -v /mnt/sda1/export:/export -v /Users/Alper/mac:/mac -ti dolphin-docker /bin/bash
+docker run -m 10G -p 8080:80 -p 3838:3838 -p 8787:8787 -v /mnt/sda1/export:/export -v /Users/Alper/mac:/mac -ti dolphin-docker /bin/bash
+#docker run -m 10G -p 8080:80 -p 33060:3306 -v /Users/Alper/export:/export -ti dolphin-docker /bin/bash
